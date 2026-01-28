@@ -29,9 +29,38 @@ let num2 = -6736;
 let num3 = 352.573;
 let num4 = -743.157;
 console.log(num1, num2, num3, num4);
+console.log('------------------------------------');
 
 // String Example:
 let str1 = 'Hi, How Are You.';
 let str2 = "Hope, You're not falling behind.";
 let str3 = `I believe in you`;
 console.log(str1, str2, str3);
+console.log('------------------------------------');
+
+// Boolean Example:
+let isHappy = true;
+let isSad = false;
+console.log(isHappy, isSad);
+console.log('------------------------------------');
+
+// Undefined Example:
+let notDefinedYet;
+console.log(notDefinedYet);
+console.log('------------------------------------');
+
+// Null Example:
+let countTheStars = null;
+console.log(countTheStars);
+console.log('------------------------------------');
+
+// BigInt Example:
+let hairOnDonky = 6767219267245454274n;
+console.log(hairOnDonky);
+console.log('------------------------------------');
+
+// Sybmol creates unique identifier for object. Below both with same description is different.
+let Id1 = Symbol('ID');
+let Id2 = Symbol('ID');
+console.log(Id1, Id2);
+console.log('------------------------------------');
