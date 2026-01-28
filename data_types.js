@@ -29,3 +29,9 @@ let num2 = -6736;
 let num3 = 352.573;
 let num4 = -743.157;
 console.log(num1, num2, num3, num4);
+
+// String Example:
+let str1 = 'Hi, How Are You.';
+let str2 = "Hope, You're not falling behind.";
+let str3 = `I believe in you`;
+console.log(str1, str2, str3);
