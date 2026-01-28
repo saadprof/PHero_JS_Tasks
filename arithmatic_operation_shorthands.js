@@ -35,3 +35,36 @@ console.log('------------------------------------');
 let remainder = 50 % 9;
 console.log(remainder);
 console.log('------------------------------------');
+
+
+// Arithmatic Shorthands do the operations with itself
+// Addition
+let addShort = 5;
+addShort += 5
+console.log(addShort);
+console.log('------------------------------------');
+
+
+// Subtraction
+let subShort = 20;
+subShort -= 15;
+console.log(subShort);
+console.log('------------------------------------');
+
+// Multiplication
+let multiplyShort = 5;
+multiplyShort *= 5;
+console.log(multiplyShort);
+console.log('------------------------------------');
+
+// Division
+let divideShort = 120;
+divideShort /= 10;
+console.log(divideShort);
+console.log('------------------------------------');
+
+// Remainder
+let remainderShort = 100;
+remainderShort %= 9;
+console.log(remainderShort);
+console.log('------------------------------------');
