@@ -29,38 +29,64 @@ let num2 = -6736;
 let num3 = 352.573;
 let num4 = -743.157;
 console.log(num1, num2, num3, num4);
-console.log('------------------------------------');
+console.log("------------------------------------");
 
 // String Example:
-let str1 = 'Hi, How Are You.';
+let str1 = "Hi, How Are You.";
 let str2 = "Hope, You're not falling behind.";
 let str3 = `I believe in you`;
 console.log(str1, str2, str3);
-console.log('------------------------------------');
+console.log("------------------------------------");
 
 // Boolean Example:
 let isHappy = true;
 let isSad = false;
 console.log(isHappy, isSad);
-console.log('------------------------------------');
+console.log("------------------------------------");
 
 // Undefined Example:
 let notDefinedYet;
 console.log(notDefinedYet);
-console.log('------------------------------------');
+console.log("------------------------------------");
 
 // Null Example:
 let countTheStars = null;
 console.log(countTheStars);
-console.log('------------------------------------');
+console.log("------------------------------------");
 
 // BigInt Example:
 let hairOnDonky = 6767219267245454274n;
 console.log(hairOnDonky);
-console.log('------------------------------------');
+console.log("------------------------------------");
 
 // Sybmol creates unique identifier for object. Below both with same description is different.
-let Id1 = Symbol('ID');
-let Id2 = Symbol('ID');
+let Id1 = Symbol("ID");
+let Id2 = Symbol("ID");
 console.log(Id1, Id2);
+console.log("------------------------------------");
+
+// Array Example:
+let arr1 = [12, 42, 52, 15, 72, 91, 53];
+let arr2 = ["Hello", "Salamat", "Bonjour", "Ola!"];
+let arr3 = ["Mammamiyo Amigo", 777, true, undefined]; // Not a ideal way to define a array;
+console.log(arr1, arr2, arr3);
+console.log('------------------------------------');
+
+// Object Example:
+let obj1 = {
+    name: 'Spynx',
+    model: 'T6281',
+    built: 12_23_2001
+};
+let obj2 = {
+    productName: 'Beans',
+    quantityTon: 520,
+    shippingVehicle: 'Lemon Airlines'
+};
+let obj3 = {
+    destination: "Orlan Field",
+    coordinates: ['12 03 N', '74 -2 S'],
+    arrival: 12_19_2167,
+}
+console.log(obj1, obj2, obj3);
 console.log('------------------------------------');
