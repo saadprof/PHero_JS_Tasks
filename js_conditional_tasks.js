@@ -36,3 +36,28 @@ if((burgerQuantity * burgerPrice) > 500 && ((combo1Quantity * combo1Price) > 100
 } else if(burgerQuantity < 3){
     console.log("Wanna get a coke? It'll cost only 25 taka.");
 }
+
+
+
+
+/* ---------------- BMI Calculator -------------------*/
+/*
+    - Calculate BMI using the formula: BMI = weight (kg) / (height (m))^2
+    - BMI < 18.5, you are underweight.
+    - BMI >= 18.5 and BMI <=24.9, you are normal.
+    - BMI >=25 and BMI <= 29.9, you are overweight.
+    - Otherwise, you are obese.
+*/ 
+
+let weight = 55;
+let height = 1.73;
+let BMI = weight / (height ** 2);
+if(BMI < 18.5){
+    console.log("Eat some calories cuh, You a bone. BMI is: ", BMI);
+} else if(BMI >= 18.5 && BMI <= 24.9){
+    console.log("Perfect! Now maintain this state. BMI is: ", BMI);
+} else if(BMI >= 25 && BMI <= 29.9){
+    console.log("Ate too much! Give 20 push-ups now. BMI is: ", BMI);
+} else{
+    console.log("The Earth won't shake cause you can't walk. BMI is: ", BMI);
+}
