@@ -61,3 +61,27 @@ if(BMI < 18.5){
 } else{
     console.log("The Earth won't shake cause you can't walk. BMI is: ", BMI);
 }
+
+
+
+/*  ------------------- Student's Grade Calculator -------------------  */
+/*
+    Create a grade calculator for student's based on these result score
+    A: 90-100
+    B: 80-89
+    C: 70-79
+    D: 60-69
+    F: 0-59
+*/ 
+let result = 20;
+if(result >= 90 && result <= 100){
+    console.log(result, "is absolute banger. Bright student.");
+} else if(result >= 80 && result <= 89){
+    console.log(result, "still a banger. Keep it up.");
+} else if(result >= 70 && result <= 79){
+    console.log(result, "youre a cunt cause youre a middle child.");
+} else if(result >= 60 && result <= 69){
+    console.log(result, "Throw yourself out of the window.");
+} else{
+    console.log(result, "!!!  ...  It's okay. A result can't decide our destiny. Oneday we have to die anyway.");
+}
