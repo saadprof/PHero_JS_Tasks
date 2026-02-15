@@ -140,3 +140,28 @@ let sresult;
 
 num1 > num2 ? sresult = num1 * 2 : sresult = num1 + num2;
 console.log("The result is: ", sresult);
+
+
+
+
+/* ------------------------- Bus Fare Calculator ---------------------- */
+/*
+Ticket fare Calculator
+    - Children (age < 10): free
+    - Students get a 50% discount
+    - Senior citizens (age >= 60) gets a 15% Discount
+    - Otherwise Regular ticket fare 800 tk
+*/
+let age = 35;
+let ticketFare = 800;
+let isStudent = true;
+
+if(age < 10){
+    console.log(`You're a baby. Yon dont have to pay. Fare is: ${ticketFare*0}`);
+} else if(age >= 60){
+    console.log(`Senior Citizen should be looked upon. Fare is: ${ticketFare - ticketFare*.15} with 15% discount.`);
+} else if((age > 10 || age < 60) && isStudent){
+    console.log(`A obedient student is asset for Capitalists. Your fare is: ${ticketFare - ticketFare*.50} with 50% discount.`);
+} else{
+    console.log("Sir. The fare is 800 taka.");
+}
