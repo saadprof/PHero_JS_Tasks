@@ -165,3 +165,11 @@ if(age < 10){
 } else{
     console.log("Sir. The fare is 800 taka.");
 }
+
+// Same thing using ternary operator
+/*
+age < 10 ? console.log(`You're a baby. Yon dont have to pay. Fare is: ${ticketFare*0}`) : 
+age >= 60 ? console.log(`Senior Citizen should be looked upon. Fare is: ${ticketFare - ticketFare*.15} with 15% discount.`) :
+(age > 10 || age < 60) && isStudent ? console.log(`A obedient student is asset for Capitalists. Your fare is: ${ticketFare - ticketFare*.50} with 50% discount.`) :
+console.log("Sir. The fare is 800 taka.")
+*/
