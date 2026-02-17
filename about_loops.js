@@ -18,3 +18,11 @@
                 increament/decreament;
             } while (condition)
 */ 
+
+
+// while loop.
+let i = 1;  // iterator
+while(i <= 10){
+    console.log("Value of i is: ", i);
+    i++  // increament
+}
