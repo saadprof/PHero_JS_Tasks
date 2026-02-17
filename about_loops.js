@@ -30,6 +30,18 @@ while(i <= 10){
 // Reverse counting loop
 i = 10
 while(i > 0){
-    console.log("The reverse value of i is: ", i);
+    // console.log("The reverse value of i is: ", i);
     i--; // Decreament
+}
+
+
+
+// for loop
+for(let i = 1; i <= 10; i++){
+    // console.log(`Value of i is: ${i}`);
+}
+
+// Reverse for loop
+for(let i = 10; i >= 1; i--){
+    console.log(`Value of i is: ${i}`);
 }
