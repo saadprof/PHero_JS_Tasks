@@ -43,5 +43,13 @@ for(let i = 1; i <= 10; i++){
 
 // Reverse for loop
 for(let i = 10; i >= 1; i--){
-    console.log(`Value of i is: ${i}`);
+    // console.log(`Value of i is: ${i}`);
 }
+
+
+// do{}...while() loop
+let j = 11; // change the value 10 and the loop will count 1-10.    --1
+do{
+    console.log("I'll be executed no matter what.", j); // But this line will execute whether the condition is true of false.     --2 
+    j++;
+} while(j <= 10)
