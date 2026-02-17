@@ -23,6 +23,13 @@
 // while loop.
 let i = 1;  // iterator
 while(i <= 10){
-    console.log("Value of i is: ", i);
+    // console.log("Value of i is: ", i);
     i++  // increament
+}
+
+// Reverse counting loop
+i = 10
+while(i > 0){
+    console.log("The reverse value of i is: ", i);
+    i--; // Decreament
 }
