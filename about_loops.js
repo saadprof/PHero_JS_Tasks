@@ -47,9 +47,17 @@ for(let i = 10; i >= 1; i--){
 }
 
 
+// A different variant of for loop which is much flexible.
+let z = 1;
+for( ;z <= 10 ; ){
+    console.log("Yes, for loop can be that much flexible. Counting: ", z);
+    z++;
+}
+
+
 // do{}...while() loop
 let j = 11; // change the value 10 and the loop will count 1-10.    --1
 do{
-    console.log("I'll be executed no matter what.", j); // But this line will execute whether the condition is true of false.     --2 
+    // console.log("I'll be executed no matter what.", j); // But this line will execute whether the condition is true of false.     --2 
     j++;
 } while(j <= 10)
